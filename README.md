@@ -1,6 +1,6 @@
 # 🔳 RISC-V SoC Tapeout Program — Week 8️⃣
 
-<p align="center"><img src="./ASSETS/0.png" width="500"/></p>
+<p align="center"><img src="./images/week8.png" width="500"/></p>
 
 ---
 
@@ -71,7 +71,6 @@ read_verilog vsdbabysoc.powered.v
 
 ```
 
-<p align="center"><img src="./images/load_design.png" width="700"/></p>
 
 ---
 
@@ -84,7 +83,6 @@ read_liberty sky130_fd_sc_hd__ff_n40C_1v95.lib
 
 ```
 
-<p align="center"><img src="./images/load_libs.png" width="700"/></p>
 
 ---
 
@@ -96,7 +94,6 @@ set_propagated_clock [all_clocks]
 
 ```
 
-<p align="center"><img src="./images/load_constraints.png" width="700"/></p>
 
 ---
 
@@ -109,7 +106,6 @@ report_tns
 
 ```
 
-<p align="center"><img src="./images/report_checks.png" width="700"/></p>
 
 ---
 
@@ -206,4 +202,16 @@ Week-8 represents **true tape-out preparation**, where physical effects dominate
 
 ---
 
-##
+---
+## 🙏 Special Thanks 👏  
+I sincerely thank all the organizations and their key members for making this program possible 💡:  
+
+- 🧑‍🏫 **VLSI System Design (VSD)** – [Kunal Ghosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/) for mentorship and vision.  
+- 🤝 **Efabless** – [Michael Wishart](https://www.linkedin.com/in/mike-wishart-81480612/) & [Mohamed Kassem](https://www.linkedin.com/in/mkkassem/) for enabling collaborative open-source chip design.  
+- 🏭 **[Semiconductor Laboratory (SCL)](https://www.scl.gov.in/)** – for PDK & foundry support.  
+- 🎓 **[IIT Gandhinagar (IITGN)](https://www.linkedin.com/school/indian-institute-of-technology-gandhinagar-iitgn-/?originalSubdomain=in)** – for on-site training & project facilitation.  
+- 🛠️ **Synopsys** – [Sassine Ghazi](https://www.linkedin.com/in/sassine-ghazi/) for providing industry-grade EDA tools under C2S program.  
+
+--- 
+👉 Main Repo Link :  
+[https://github.com/madhavanshree2006/RISC-V-SoC-Tapeout-Program](https://github.com/madhavanshree2006/RISC-V-SoC-Tapeout-Program)
